@@ -48,7 +48,7 @@ Upon execution of the attacks, the Wazuh Dashboard successfully generated High-S
 
 **The Analyst View (Drill-down):**
 I investigated the specific alert details to confirm the source of the attack.
-![Alert Details](alert-details.png.png)
+![Alert Details](alert-detail.png.png)
 *Figure 3: Detailed log analysis revealing the Attacker's IP and the specific Rule ID (5716).*
 
 ## 🧠 Lessons Learned
