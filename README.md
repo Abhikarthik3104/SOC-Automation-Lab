@@ -36,19 +36,19 @@ Installed the Wazuh MSI agent on Windows 10. Verified connectivity via PowerShel
 Used `Hydra` on Kali Linux to attempt an SSH brute force login against the Windows machine.
 *Command:* `hydra -l administrator -P /usr/share/wordlists/rockyou.txt ssh://[Target_IP]`
 
-![Attack Proof](attack-proof.png)
+![Attack Proof](attack-proof.png.png)
 *Figure 1: Kali Linux terminal executing the Hydra attack.*
 
 ### 4. Detection & Analysis
 Upon execution of the attacks, the Wazuh Dashboard successfully generated High-Severity alerts.
 
 **The Dashboard View:**
-![Detection Alert](detection-alert.png)
+![Detection Alert](detection-alert.png.png)
 *Figure 2: Real-time telemetry spike showing multiple authentication failures.*
 
 **The Analyst View (Drill-down):**
 I investigated the specific alert details to confirm the source of the attack.
-![Alert Details](alert-details.png)
+![Alert Details](alert-details.png.png)
 *Figure 3: Detailed log analysis revealing the Attacker's IP and the specific Rule ID (5716).*
 
 ## 🧠 Lessons Learned
