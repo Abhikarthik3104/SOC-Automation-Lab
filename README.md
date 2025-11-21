@@ -49,7 +49,7 @@ Upon execution of the attacks, the Wazuh Dashboard successfully generated High-S
 **The Analyst View (Drill-down):**
 I investigated the specific alert details to confirm the source of the attack.
 ![Alert Details](alert-detail.png.png)
-*Figure 3: Detailed log analysis revealing the Attacker's IP and the specific Rule ID (5716).*
+*Figure 3: Detailed log analysis revealing the Attacker's IP and the specific Rule ID (6106).*
 
 ## 🧠 Lessons Learned
 * **Log Analysis:** Learned how to read raw JSON logs to identify the "Source IP" of an attacker.
